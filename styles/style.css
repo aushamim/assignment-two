@@ -193,6 +193,66 @@ footer div img {
   }
   .players-section {
     grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
     margin: 0px;
+  }
+
+  .highlights-section {
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .highlights-section img {
+    margin-top: 10px;
+  }
+
+  .live div {
+    flex-direction: column;
+    text-align: center;
+  }
+  .live-button {
+    margin-left: 0px;
+    margin-bottom: 30px;
+  }
+  .live-button p {
+    margin: 0px;
+  }
+}
+
+/* Tab */
+@media (max-width: 992px) {
+  .top-section {
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+  }
+  .top-right img {
+    margin-top: 40px;
+    margin-left: 80px;
+    height: 80%;
+    width: 80%;
+  }
+  .players-section {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    margin: 0px;
+  }
+
+  .highlights-section {
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .highlights-section img {
+    margin-top: 10px;
+  }
+  .details {
+    padding-right: 0px;
+  }
+
+  footer {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
