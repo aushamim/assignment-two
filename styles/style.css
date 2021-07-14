@@ -184,8 +184,15 @@ footer div img {
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 0px;
+  }
+  .top-right img {
+    margin-top: 40px;
+    height: 100%;
+    width: 100%;
   }
   .players-section {
     grid-template-columns: repeat(1, 1fr);
+    margin: 0px;
   }
 }
